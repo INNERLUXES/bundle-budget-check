@@ -1,0 +1,10 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The file reader, the manifest readers, the import graph, the size measurement and the checks decide every line of the report; changes need extra care.
+/src/files.js @innerluxesdev
+/src/size.js @innerluxesdev
+/src/vite.js @innerluxesdev
+/src/next.js @innerluxesdev
+/src/graph.js @innerluxesdev
+/src/check.js @innerluxesdev
