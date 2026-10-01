@@ -1,0 +1,47 @@
+{
+  "name": "bundle-budget-check",
+  "version": "1.0.0",
+  "description": "Check the JavaScript and CSS each page of a front-end build loads against size budgets, so bundles cannot grow unnoticed. Reads a Vite manifest, a Next.js build or a folder of files, measures raw, gzip and brotli sizes, and fails the pipeline when a page goes over its budget. Never runs the build, no dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "bundle-budget-check": "bin/bundle-budget-check.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "example": "node tools/example.mjs"
+  },
+  "keywords": [
+    "bundle-size",
+    "performance-budget",
+    "react",
+    "vite",
+    "nextjs",
+    "web-performance",
+    "ci",
+    "cli"
+  ],
+  "author": "INNERLUXES <info@innerluxes.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INNERLUXES/bundle-budget-check.git"
+  },
+  "homepage": "https://innerluxes.dev/web-development/react"
+}
