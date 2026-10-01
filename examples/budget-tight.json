@@ -1,0 +1,8 @@
+{
+  "compression": "gzip",
+  "entries": {
+    "index.html": { "js": "30 KB", "css": "5 KB", "total": "34 KB" }
+  },
+  "files": { "max": "20 KB" },
+  "lazy": { "max": "15 KB" }
+}

@@ -1,0 +1,9 @@
+{
+  "compression": "gzip",
+  "default": { "js": "170 KB", "css": "50 KB", "total": "220 KB" },
+  "entries": {
+    "admin.html": { "js": "60 KB" }
+  },
+  "files": { "max": "100 KB" },
+  "lazy": { "max": "120 KB" }
+}

@@ -1,0 +1,80 @@
+{
+  "index.html": {
+    "file": "assets/index-4f1a2b3c.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-react-9d8e7f6a.js",
+      "_shared-ui-1a2b3c4d.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Reports.tsx"
+    ],
+    "css": [
+      "assets/index-7c6b5a4d.css"
+    ]
+  },
+  "admin.html": {
+    "file": "assets/admin-8e7d6c5b.js",
+    "name": "admin",
+    "src": "admin.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-react-9d8e7f6a.js",
+      "_shared-ui-1a2b3c4d.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Reports.tsx",
+      "src/pages/Settings.tsx"
+    ],
+    "css": [
+      "assets/admin-3b4c5d6e.css"
+    ]
+  },
+  "_vendor-react-9d8e7f6a.js": {
+    "file": "assets/vendor-react-9d8e7f6a.js",
+    "name": "vendor-react"
+  },
+  "_shared-ui-1a2b3c4d.js": {
+    "file": "assets/shared-ui-1a2b3c4d.js",
+    "name": "shared-ui",
+    "imports": [
+      "_vendor-react-9d8e7f6a.js"
+    ],
+    "css": [
+      "assets/shared-ui-5e6f7a8b.css"
+    ]
+  },
+  "_chart-6a5b4c3d.js": {
+    "file": "assets/chart-6a5b4c3d.js",
+    "name": "chart",
+    "imports": [
+      "_vendor-react-9d8e7f6a.js"
+    ]
+  },
+  "src/pages/Reports.tsx": {
+    "file": "assets/Reports-2c3d4e5f.js",
+    "name": "Reports",
+    "src": "src/pages/Reports.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-9d8e7f6a.js",
+      "_shared-ui-1a2b3c4d.js",
+      "_chart-6a5b4c3d.js"
+    ],
+    "css": [
+      "assets/Reports-9a8b7c6d.css"
+    ]
+  },
+  "src/pages/Settings.tsx": {
+    "file": "assets/Settings-0f1e2d3c.js",
+    "name": "Settings",
+    "src": "src/pages/Settings.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-react-9d8e7f6a.js",
+      "_shared-ui-1a2b3c4d.js"
+    ]
+  }
+}

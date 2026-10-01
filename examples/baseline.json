@@ -1,0 +1,78 @@
+{
+  "tool": "bundle-budget-check",
+  "mode": "vite",
+  "compression": "gzip",
+  "sources": {
+    "dir": "examples/vite-dist",
+    "manifest": "examples/vite-dist/.vite/manifest.json",
+    "config": "examples/budget.json"
+  },
+  "entries": [
+    {
+      "name": "index.html",
+      "kind": "entry",
+      "files": 5,
+      "js": 31377,
+      "css": 3623,
+      "total": 35000,
+      "budget": {
+        "js": 170000,
+        "css": 50000,
+        "total": 220000,
+        "pattern": "default"
+      },
+      "status": "ok",
+      "growth": null,
+      "sizes": {
+        "raw": {
+          "js": 134591,
+          "css": 17115,
+          "total": 151706
+        },
+        "gzip": {
+          "js": 31377,
+          "css": 3623,
+          "total": 35000
+        },
+        "brotli": {
+          "js": 31112,
+          "css": 3069,
+          "total": 34181
+        }
+      }
+    },
+    {
+      "name": "admin.html",
+      "kind": "entry",
+      "files": 5,
+      "js": 34015,
+      "css": 2685,
+      "total": 36700,
+      "budget": {
+        "js": 60000,
+        "css": 50000,
+        "total": 220000,
+        "pattern": "admin.html"
+      },
+      "status": "ok",
+      "growth": null,
+      "sizes": {
+        "raw": {
+          "js": 130918,
+          "css": 11142,
+          "total": 142060
+        },
+        "gzip": {
+          "js": 34015,
+          "css": 2685,
+          "total": 36700
+        },
+        "brotli": {
+          "js": 30307,
+          "css": 2220,
+          "total": 32527
+        }
+      }
+    }
+  ]
+}
